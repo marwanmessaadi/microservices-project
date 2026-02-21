@@ -1,13 +1,49 @@
-﻿target/
-*.log
-*.class
+﻿# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 *.jar
 *.war
-*.iml
+*.ear
+*.log
+
+# IDE
 .idea/
+*.iml
+*.iws
+*.ipr
 .settings/
-.project
 .classpath
+.project
+.factorypath
+.sonarlint
+.springBeans
+
+# Eclipse
+bin/
+.settings/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
 *.log
 spring-pid*
