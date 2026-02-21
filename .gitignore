@@ -1,0 +1,13 @@
+﻿target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.settings/
+.project
+.classpath
+.DS_Store
+*.log
+spring-pid*
